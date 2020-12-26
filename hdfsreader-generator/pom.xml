@@ -79,23 +79,20 @@
 
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <version>3.2.0</version>
                 <configuration>
+                    <descriptors>
+                        <descriptor>src/main/assembly/package.xml</descriptor>
+                    </descriptors>
+                    <finalName>dolphinscheduler-datax-generator</finalName>
                     <appendAssemblyId>false</appendAssemblyId>
-                    <descriptorRefs>
-                        <descriptorRef>jar-with-dependencies</descriptorRef>
-                    </descriptorRefs>
-                    <archive>
-                        <manifest>
-                            <!-- 此处指定main方法入口的class -->
-                            <mainClass>wjd.parquet.TestReadWriteParquet</mainClass>
-                        </manifest>
-                    </archive>
                 </configuration>
                 <executions>
                     <execution>
-                        <id>make-assembly</id>
+                        <id>dwzip</id>
                         <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
                     </execution>
                 </executions>
             </plugin>

@@ -1,0 +1,6 @@
+{
+  "name": "hdfsreader",
+  "class": "org.apache.dolphinscheduler.api.service.impl.DataxHdfsReaderCloumnGenerateServiceImpl",
+  "description": "hdfsreader config generator",
+  "developer": "thinkingdata"
+}
