@@ -24,7 +24,7 @@
 		<format>dir</format>
 	</formats>
 	<includeBaseDirectory>true</includeBaseDirectory>
-	<baseDirectory>olphinscheduler-datax-generator</baseDirectory>
+	<baseDirectory>dolphinscheduler-datax-generator</baseDirectory>
 
 	<fileSets>
 		<!--alert start-->
