@@ -27,7 +27,7 @@
 	<baseDirectory>dolphinscheduler-datax-generator</baseDirectory>
 
 	<fileSets>
-		<!--alert start-->
+		<!--hdfs reader  start-->
 		<fileSet>
 			<directory>${basedir}/../hdfsreader-generator/target/dolphinscheduler-datax-generator</directory>
 			<includes>
@@ -35,6 +35,16 @@
 			</includes>
 			<outputDirectory>datax-generator</outputDirectory>
 		</fileSet>
-		<!--alert end-->
+		<!--hdfs reader  end-->
+
+		<!--mysql reader  start-->
+		<fileSet>
+			<directory>${basedir}/../mysqlreader-generator/target/dolphinscheduler-datax-generator</directory>
+			<includes>
+				<include>**/*</include>
+			</includes>
+			<outputDirectory>datax-generator</outputDirectory>
+		</fileSet>
+		<!--mysql reader  end-->
 	</fileSets>
 </assembly>
