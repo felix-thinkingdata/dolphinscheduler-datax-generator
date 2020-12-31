@@ -12,6 +12,7 @@
         <module>core-generator</module>
         <module>hdfsreader-generator</module>
         <module>generator-dist</module>
+        <module>mysqlreader-generator</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
