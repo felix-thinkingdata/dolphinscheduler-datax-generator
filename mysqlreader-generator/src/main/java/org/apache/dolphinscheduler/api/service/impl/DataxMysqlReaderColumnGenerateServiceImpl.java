@@ -1,3 +1,4 @@
+package org.apache.dolphinscheduler.api.service.impl;
 import org.apache.dolphinscheduler.api.dto.dataxmeta.PluginColumn;
 import org.apache.dolphinscheduler.api.service.DataxColumnGenerateService;
 

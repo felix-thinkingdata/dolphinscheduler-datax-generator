@@ -1,6 +1,6 @@
 {
   "name": "mysqlreader",
-  "class": "org.apache.dolphinscheduler.api.service.impl.DataxHdfsReaderColumnGenerateServiceImpl",
+  "class": "org.apache.dolphinscheduler.api.service.impl.DataxMysqlReaderColumnGenerateServiceImpl",
   "description": "mysqlreader config generator",
   "developer": "thinkingdata"
 }
